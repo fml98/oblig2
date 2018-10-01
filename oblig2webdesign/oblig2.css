@@ -1,0 +1,92 @@
+
+.heileseksjonen{
+display: grid;
+grid-template-columns: 2fr 1fr;
+grid-auto-rows: minmax(100px,auto);
+}
+
+.eksternheileseksjonen{
+    display: grid;
+    grid-auto-rows: minmax(100px,auto);
+    }
+
+header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-image: url(header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+nav {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-image: url(nav.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    
+}
+
+.meny{
+    text-align: center;
+    }
+
+#sidemeny {
+    background: grey;
+    }
+
+    #eksternhovedseksjon{
+        grid-column: 1/4;
+    }
+
+    #eksternartikkel1{
+        background-color: green;
+    }
+    
+    #hovedseksjon{
+        background: lightgrey;
+        display: flex;
+    }
+    
+    footer{
+        grid-column: 1/4;
+        background-color: wheat;
+    }
+
+    footer > p {
+        text-align: center;
+        border: 5px
+
+    }
+
+
+h1{
+font-size: 25px;
+color: blueviolet;
+text-align: center;
+}
+#listemeny > li{
+display: inline;
+width: 50px;
+border: 2px solid black;
+margin: 2px;
+padding: 3px;
+}
+
+#artikkel1 {
+
+background-color: beige;
+}
+
+#artikkel2{
+background-color: antiquewhite;
+}
+
+#artikkel3{
+background-color: thistle;
+}
+
+
+
